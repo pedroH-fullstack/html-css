@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feito so com a copilot do github</title>
+    <style>
+body{
+    background-image: url('imagens/wallpaper002.jpg');  
+    background-size: cover;
+    background-position: center;    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;  
+    padding: 0;
+}
+#background-color-opacity{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Coloca o fundo atrás do quadrado */
+}
+h1{
+    text-align: center;
+    color: wheat;
+    font-size: 3em;
+}
+div.quadrado {
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;   
+    height: 300px;
+    background-color: lightslategray;   
+    border-radius: 10px;
+}
+div#q3{
+    min-width: 320px;
+    max-width: 520px;
+    margin: 10px auto;
+    background-image: url('imagens/pattern001.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding: 10px;  
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+div#q3 p{
+    color: black;
+    font-size: 1.5em;
+    text-align: center; 
+    font-weight: bold;
+}
+
+    div#q3 p::before {
+        content: "Fundo com Imagem";
+        display: block;
+        margin-bottom: 10px;
+    }
+    div#q3 p::after {
+        content: "Você pode adicionar mais conteúdo aqui.";
+        display: block;
+        margin-top: 10px;
+    }
+
+    
+
+    </style>
+</head>
+<body>
+    <div id="background-color-opacity"></div>
+    <h1>Fundo com Imagem</h1>
+    <div class="quadrado" id="q3">
+        <p>Este é um exemplo de página com um fundo de imagem aplicado.</p>
+    </div>
+    <p>Você pode adicionar mais conteúdo aqui.</p>
+    <p>Este é um exemplo de página com um fundo de imagem aplicado.</p>
+    <p>Você pode adicionar mais conteúdo aqui.</p>
+    <p>Este é um exemplo de página com um fundo de imagem aplicado.</p>
+    <p>Você pode adicionar mais conteúdo aqui.</p>
+
+</body>
+</html>
