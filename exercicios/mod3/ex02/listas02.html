@@ -11,22 +11,20 @@
             color: #333;
         }
 
-        h1 {
-            text-align: center;
-            color: #444;
-        }
-
         caption {
             font-weight: bold;
             font-size: 1.2em;
             margin-bottom: 10px;
-            text-align: center;
         }
-          
+
         table {
             border-collapse: collapse;
-            width: 70%;
-            margin: 20px auto;
+            width: 100%;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: #706f6f;
+            color: white;
         }
 
         th, tfoot{
@@ -54,8 +52,8 @@
 </head>
 <body>
     <h1>Tabelas Grandes</h1>
-    <caption>População das Unidades Federativas</caption>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th>Posição</th>
