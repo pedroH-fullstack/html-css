@@ -5,64 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>colgrups</title>
     <style>
-  
-        table{
-            width: 600px;
-            border-collapse: collapse;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
+ 
         td, th{
             width: 200px;
             border: 1px solid black;
             text-align: center;
             background-color: white;
         }
-        col.cnome{
-            background-color: yellow;
-        }
-
+        
+       
     </style>
 </head>
 <body>
-    
+    <h1>por algum motivo n esta funcionando</h1>
     <table>
-        <colgroup>
-            <col class="cnome">
-            <col>
-            <col>
-            <col>
-        </colgroup>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
 
-        <thead>
-            <tr>
-                <th scope="col">nome</th>
-                <th scope="col">idade</th>
-                <th scope="col">sexo</th>
-                <th scope="col">profissão</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Matheus</td>
-                <td>20</td>
-                <td>Masculino</td>
-                <td>Programador</td>
-            </tr>
-            <tr>
-                <td>Maria</td>
-                <td>22</td>
-                <td>Feminino</td>
-                <td>Designer</td>
-            </tr>
-            <tr>
-                <td>João</td>
-                <td>25</td>
-                <td>Masculino</td>
-                <td>Engenheiro</td>
-            </tr>
-        </tbody>
-    </table>
 
 
 </body>
