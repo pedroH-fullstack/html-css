@@ -33,3 +33,28 @@ section#celular{
     background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
 }
 
+
+
+iframe{
+    position: absolute;
+    top: 65px;
+    left: 17px ;
+    height: 384px;
+    width: 218px;
+    
+
+}
+
+#redes-sociais{
+    display: grid;
+    align-items: end;
+    justify-content: end;
+}
+
+a>img{
+    margin: 20px 20px 0px 0px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
